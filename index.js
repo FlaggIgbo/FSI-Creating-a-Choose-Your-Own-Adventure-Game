@@ -19,7 +19,7 @@ if (firstAnswer.toLowerCase() === 'left') {
     window.alert(finalPrompt)
   }
 } else if (firstAnswer.toLowerCase() === 'right') {
-  let secondAnswer = window.prompt(`You come across a snoring dragon. On the other side of him, you see a shiny chest of treasure. Another path would lead you away from the dragon altogether. Which path do you take?`)
+  let secondAnswer = window.prompt(`You come across a awake dragon. On the other side of him, you see a shiny chest of treasure. Another path would lead you away from the dragon altogether. Which path do you take?`)
   if (secondAnswer.toLowerCase() === 'past the dragon') {
     let finalAnswer = window.prompt('The dragon wakes up and sits upright. You only have a moment to respond, to stay or run:')
     if (finalAnswer.toLowerCase() === 'stay') {
