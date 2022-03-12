@@ -33,7 +33,7 @@ if (firstAnswer.toLowerCase() === 'left') {
     if (finalAnswer.toLowerCase() === 'draw it') {
       finalPrompt = 'You draw the flower, capturing only a fraction of its beauty with your quill. You bring the drawing home, somewhat disappointed, but over time, discover joy in sharing it with your friends and family, recounting the story of your days as a sorcerer with the aid of the sketch.'
     } else if (finalAnswer.toLowerCase() === 'pick it') {
-      finalPrompt = 'You pick the flower and bring it home, and all marvel at its brilliance. However, over time it fades and eventually crumbles to dust.'
+      finalPrompt = 'You pick the flower and bring it home, and all marvel at its brilliance. However, over time it fades and eventually crumbles to ash.'
     }
     window.alert(finalPrompt)
   }
